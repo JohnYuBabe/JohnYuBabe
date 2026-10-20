@@ -19,10 +19,10 @@ AI 辅助交付的控制台。没有规格不能进入开发，没有通过验�
 按钮级权限脚手架。权限串只定义一次，菜单、路由、按钮、接口判定共用同一份数据；
 三个角色，改权限下一次请求生效。
 
-**julai-case-study** · [demo](https://johnyu.wancafu.com/julai/)
+**[julai-case-study](https://github.com/JohnYuBabe/julai-case-study)** · [demo](https://johnyu.wancafu.com/julai/)
 
-真实报名系统的技术切片：50 并发抢 20 个名额不超卖，活动状态读取时现算，
-9 种按钮状态由服务端一次判定。源码整理中。
+真实报名系统的可运行切片：50 并发抢 20 个名额不超卖，活动状态读取时现算，
+9 种按钮状态由服务端一次判定。五个并发场景在 CI 里每次提交都真实跑一遍。
 
 ---
 
